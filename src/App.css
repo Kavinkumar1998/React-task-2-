@@ -1,38 +1,70 @@
-.App {
+*{
+  padding: 0;
+  margin:0
+}
+.App{
+  height: auto;
+  width: auto;
+  background-color: rgb(224, 199, 148)
+}
+.Header{
+  height:100px;
+  width:100 vw;
   text-align: center;
+  padding: 20px;
+  background-color: rgb(7, 231, 82);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.h1{
+  font-size:40px;
+  font-weight: 600;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Footer{
+  height:100px;
+  width:100 vw;
+  border: 1px solid black;
+  text-align: center;
+  font-size:20px;
+  font-weight: 600;
+  padding: 20px;
+  background-color: rgb(7, 231, 82);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card{
+  margin:20px;
+  text-align: center;
+  font-size: larger;
+  font-weight: 500;
+  background-color: aquamarine;
+  height:450px;
+  width: 300px;
+  border-radius: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.imageSpace{
+  height:250px;
+  width:300px;
+  background-color: rgb(220, 245, 230);
+  border-radius: 20px;
+  padding:20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.labelcart{
+  text-align:left;
+}
+button{
+  margin:5px;
+  padding:10px;
+}
+.cart{
+  background-color: rgb(7, 231, 82);
+  text-align: center;
+  font-size: larger;
+  font-weight: 500;
+  text-align: right;
+  height:50px;
+}
+span{
+  background-color: rgb(209, 238, 219);
+  border:1px solid black;
+  border-radius: 10px;
+  margin-right: 50px;
+  padding: 5px;
+ margin-bottom: 20px;
 }
